@@ -1,0 +1,27 @@
+<%= form_for(@link) do |f| %>
+  <% if @link.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@link.errors.count, "error") %> prohibited this link from being saved:</h2>
+
+      <ul>
+      <% @link.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="input-group">
+    <span class="input-group-addon"><%= f.label :title %></span>
+    <%= f.text_field :title, class: "form-control" %>
+  </div>
+  <br>
+  <div class="input-group">
+     <span class="input-group-addon"><%= f.label :url %></span>
+     <%= f.text_field :url, class: "form-control" %>
+  </div>
+  <br>
+  <div style="text-align:center">
+    <%= f.submit "submit", class: "btn btn-primary btn-sm" %>
+  </div>
+<% end %>

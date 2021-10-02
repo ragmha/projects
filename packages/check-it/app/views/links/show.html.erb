@@ -1,0 +1,27 @@
+<div class="page-header">
+  <%= link_to like_link_path(@link), method: :put, class: "btn btn-success btn-xs" do %>
+    <span class="glyphicon glyphicon-chevron-up"></span>  <%= @link.get_upvotes.size %>
+  <% end %> <%= link_to dislike_link_path(@link), method: :put, class: "btn btn-danger btn-xs" do %>
+    <span class="glyphicon glyphicon-chevron-down"></span>  <%= @link.get_downvotes.size %>
+  <% end %>
+  <% if @link.user == current_user -%>
+    <div class="btn-group pull-right">
+      <%= link_to 'Edit', edit_link_path(@link), class: "btn btn-info btn-sm" %>
+      <%= link_to 'Delete', @link, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-danger btn-sm" %>
+    </div>
+  <% end %>
+  <h3><a href="<%= @link.url %>"><%= @link.title %></a><br><small>Submitted by <%= @link.user.name %> | <%= @link.comments.count %> comments</small></h3>
+</div>
+
+
+<div id="comments" >
+<%= render :partial => @link.comments %>
+</div>
+
+<%= simple_form_for [@link, Comment.new] do |f| %>
+  <div class="field">
+    <%= f.text_area :body, class: "form-control" ,rows:"6" %>
+  </div>
+  <br>
+  <%= f.submit "add comment", class: "btn btn-default btn-sm" %>
+<% end %>
