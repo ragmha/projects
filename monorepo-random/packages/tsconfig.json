@@ -1,0 +1,4 @@
+{
+  "files": [],
+  "references": [{ "path": "@raghib/common" }, { "path": "@raghib/ui" }]
+}
