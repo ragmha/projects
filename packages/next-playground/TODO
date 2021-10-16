@@ -1,0 +1,13 @@
+- [X] styled-components
+- [X] jest
+- [X] react-testing-library
+- [X] docker
+- [X] graphql code generator
+- [ ] apollo
+
+
+-----
+- [ ] serverless framework
+- [ ] cypress
+- [ ] github actions
+- [ ] mirror to gitlab + use gitlab runner

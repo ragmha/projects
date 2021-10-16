@@ -1,0 +1,20 @@
+overwrite: true
+schema: 'https://nextjs-graphql-with-prisma-simple.vercel.app/api'
+documents: './services/**/*.tsx'
+generates:
+  ./types/generated.gql.types.tsx:
+    plugins:
+      - 'typescript'
+      - 'typescript-operations'
+      - 'typescript-react-apollo'
+hooks:
+  afterAllFileWrite:
+    - prettier --write
+config:
+  avoidOptionals: true
+  nonOptionalTypename: true
+  scalars:
+    DateTime: Date
+  withHOC: false
+  withHooks: true
+  withComponent: false
