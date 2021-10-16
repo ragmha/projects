@@ -1,0 +1,50 @@
+{
+  "name": "choco-bar",
+  "version": "1.0.0",
+  "description": "Chocolate API- calcualte packing cost api",
+  "main": "dist/index.js",
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "coverage": "jest --coverage",
+    "dev": "nodemon --exec ts-node src/index.ts --watch src",
+    "postinstall": "npm run build",
+    "start": "node dist/index.js",
+    "test:watch": "jest --watch",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ragmha/choco-bar.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ragmha/choco-bar/issues"
+  },
+  "homepage": "https://github.com/ragmha/choco-bar#readme",
+  "devDependencies": {
+    "@types/cors": "2.8.6",
+    "@types/express": "4.17.2",
+    "@types/jest": "24.9.0",
+    "@types/node": "13.1.7",
+    "@types/supertest": "2.0.8",
+    "jest": "24.9.0",
+    "nodemon": "2.0.2",
+    "rimraf": "3.0.0",
+    "supertest": "4.0.2",
+    "ts-jest": "24.3.0",
+    "ts-node": "8.6.2",
+    "typescript": "3.7.5"
+  },
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "cors": "2.8.5",
+    "express": "4.17.1",
+    "express-validator": "6.3.1"
+  }
+}

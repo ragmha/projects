@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "name": "Karl Fazer Milk chocolate",
+    "weight": 35,
+    "company": "Fzer",
+    "price": 2.30,
+    "quantity": 1,
+    "img": "https://www.fazer.fi/globalassets/inriver/resources/aaa54f43-fa07-444c-a68a-0fb5ccc940062.png",
+    "pricesOfBarPacketBox": [
+      2.30,
+      25,
+      230
+    ],
+    "quantitiesOfBarPacketBox": [
+      1,
+      12,
+      120
+    ]
+  }
+]
