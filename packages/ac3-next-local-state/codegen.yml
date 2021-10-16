@@ -1,0 +1,21 @@
+overwrite: true
+documents: "./operations/**/*.ts"
+schema:
+  - "./operations/typeDefs.ts"
+generates:
+  ./operations/types/generated.tsx:
+    plugins:
+      - "typescript"
+      - "typescript-operations"
+      - "typescript-react-apollo"
+hooks:
+  afterAllFileWrite:
+    - prettier --write
+config:
+  avoidOptionals: true
+  nonOptionalTypename: true
+  scalars:
+    DateTime: Date
+  withHOC: false
+  withHooks: true
+  withComponent: false
