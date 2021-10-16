@@ -1,0 +1,1581 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://raghibm.com/</id>
+    <title>🦄 Raghib Codes + Designs</title>
+    <updated>2018-12-16T18:29:50Z</updated>
+    <author>
+        <name>Raghib</name>
+        <email>raghib.hasan@codemate.com</email>
+        <uri>https://raghibm.com/about</uri>
+    </author>
+    <link rel="alternate" href="https://raghibm.com"/>
+    <subtitle>By Raghib Hasan — the javascript legend who works in silence</subtitle>
+    <rights>All rights reserved  2018, Raghib Hasan</rights>
+    <generator>Feed for Node.js</generator>
+    <entry>
+        <title type="html"><![CDATA[📜 ATOM Editor Cheat Sheet]]></title>
+        <id>https://raghibm.com/blog/atom-editor-cheat-sheet/</id>
+        <link href="https://raghibm.com/blog/atom-editor-cheat-sheet/">
+        </link>
+        <updated>2017-01-19T22:00:00Z</updated>
+        <summary type="html"><![CDATA[Become a keyboard master with this Cheat Sheet 👊]]></summary>
+        <content type="html"><![CDATA[<hr>
+<h1 style="color:yellow; text-align:center">General</h1><br>
+<h2>Toggle command palette</h2>
+<pre><code class="language-code">shift + &#x2318; + p
+</code></pre>
+<h2>Toggle line/selection comment</h2>
+<pre><code class="language-code">&#x2318; + /
+</code></pre>
+<h2>Show available auto-completions</h2>
+<pre><code class="language-code">ctrl + space
+</code></pre>
+<h1 style="color:yellow; text-align:center">File Navigation</h1><br>
+<h2>Toggle file finder</h2>
+<pre><code class="language-code">&#x2318; + p
+</code></pre>
+<h2>Goto line</h2>
+<pre><code class="language-code">ctrl + g
+</code></pre>
+<h2>Goto symbol</h2>
+<pre><code class="language-code">&#x2318; + r
+</code></pre>
+<h2>Previous/next file</h2>
+<pre><code class="language-code">shift + &#x2318; + { / }
+</code></pre>
+<h2>Set bookmark</h2>
+<pre><code class="language-code">&#x2318; + F2
+</code></pre>
+<h2>Goto next bookmark</h2>
+<pre><code class="language-code">F2
+</code></pre>
+<h1 style="color:yellow; text-align:center">View/Window Manipulation</h1><br>
+<h2>Toggle tree-view sidebar</h2>
+<pre><code class="language-code">&#x2318; + \
+</code></pre>
+<h2>Toggle fullscreen</h2>
+<pre><code class="language-code">ctrl + &#x2318; + f
+</code></pre>
+<h2>Split pane left/right/up/down</h2>
+<pre><code class="language-code">&#x2318; + k, left/right/up/down
+</code></pre>
+<h2>Focus pane left/right/up/down</h2>
+<pre><code class="language-code">&#x2318; + k, &#x2318; + left/right/up/down
+</code></pre>
+<h1 style="color:yellow; text-align:center">Find</h1><br>
+<h2>Find in file</h2>
+<pre><code class="language-code">&#x2318; + f
+</code></pre>
+<h2>Find next</h2>
+<pre><code class="language-code">&#x2318; + g
+</code></pre>
+<h2>Find in project</h2>
+<pre><code class="language-code">shift + &#x2318; + f
+</code></pre>
+<h2>Use selection for find</h2>
+<pre><code class="language-code">&#x2318; + e
+</code></pre>
+<h1 style="color:yellow; text-align:center">Folding</h1><br>
+<h2>Fold/unfold current code block</h2>
+<pre><code class="language-code">ctrl + &#x2318; + [ / ]
+</code></pre>
+<h2>Fold/unfold all code blocks</h2>
+<pre><code class="language-code">option + shift + &#x2318; + [ / ]
+</code></pre>
+<h2>Fold code blocks at depth 1-9</h2>
+<pre><code class="language-code">&#x2318; + 1-9
+</code></pre>
+<h1 style="color:yellow; text-align:center">Word Manipulation</h1><br>
+<h2>Transpose characters either side of cursor</h2>
+<pre><code class="language-code">ctrl + t
+</code></pre>
+<h2>Delete text to beginning of word</h2>
+<pre><code class="language-code">option + backspace
+</code></pre>
+<h2>Delete text to end of word</h2>
+<pre><code class="language-code">option + delete or fn + option + backspace
+</code></pre>
+<h1 style="color:yellow; text-align:center">Line Manipulation</h1><br>
+<h2>Indent/outdent current line</h2>
+<pre><code class="language-code">&#x2318; + ] / [
+</code></pre>
+<h2>Insert new line after current line</h2>
+<pre><code class="language-code">&#x2318; + enter
+</code></pre>
+<h2>Insert new line before current line</h2>
+<pre><code class="language-code">&#x2318; + shift + enter
+</code></pre>
+<h2>Delete current line</h2>
+<pre><code class="language-code">ctrl + shift + k
+</code></pre>
+<h2>Move current line up/down</h2>
+<pre><code class="language-code">ctrl + &#x2318; + up/down
+</code></pre>
+<h2>Duplicate current line</h2>
+<pre><code class="language-code">shift + &#x2318; + d
+</code></pre>
+<h2>Join current and next lines</h2>
+<pre><code class="language-code">&#x2318; + j
+</code></pre>
+<h1 style="color:yellow; text-align:center">Selection</h1><br>
+<h2>Select current word/token</h2>
+<pre><code class="language-code">&#x2318; + d
+</code></pre>
+<h2>Select current line</h2>
+<pre><code class="language-code">&#x2318; + l
+</code></pre>
+<h2>Select to beginning/end of word</h2>
+<pre><code class="language-code">option + shift + left/right
+</code></pre>
+<h2>Select to first/last character of line</h2>
+<pre><code class="language-code">shift + &#x2318; + left/right
+</code></pre>
+<h2>Select to top/bottom of document</h2>
+<pre><code class="language-code">shift + &#x2318; + up/down
+</code></pre>
+<hr>
+<figure><img src="https://raghibm.com/blog/atom-editor-cheat-sheet/http://31.media.tumblr.com/35973342a8f51315023d58c249664b00/tumblr_n9hu86QyRL1sedjuto1_400.gif" alt="Stay Awesome! &#x1F60E;"><figcaption>Stay Awesome! &#x1F60E;</figcaption></figure>
+<hr>
+]]></content>
+        <author>
+            <name>Raghib</name>
+            <email>raghib.hasan@codemate.com</email>
+            <uri>https://raghibm.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[😎 Awesome ES6 Features]]></title>
+        <id>https://raghibm.com/blog/awesome-ES6-features/</id>
+        <link href="https://raghibm.com/blog/awesome-ES6-features/">
+        </link>
+        <updated>2017-02-06T22:00:00Z</updated>
+        <summary type="html"><![CDATA[Refresh your ES6 with these examples 👊]]></summary>
+        <content type="html"><![CDATA[<h2>&#x270A; Convert NodeList to Array:</h2>
+<pre><code class="language-javascript">// Spread syntax - https://goo.gl/0elyOR
+
+let Headings  = [...document.querySelectorAll(&apos;h1&apos;)];
+</code></pre>
+<h2>&#x270A; Convert Arguments to Array:</h2>
+<pre><code class="language-javascript">// Spread syntax - https://goo.gl/0elyOR
+
+let argsArray  = [...arguments];
+</code></pre>
+<h2>&#x1F984; Unique Arrays:</h2>
+<pre><code class="language-javascript">// Spread syntax - https://goo.gl/0elyOR
+
+// Set syntax - https://goo.gl/jwroxF
+
+let array = [1,3,3,7];
+
+let result = [...new Set(array)]; // =&gt; [1, 3, 7]
+</code></pre>
+<h2>&#x1F528; Destructuring:</h2>
+<pre><code class="language-javascript">// Destructuring assignment syntax - https://goo.gl/vwd7C1
+
+let {foo, bar} = {foo: &quot;lorem&quot;, bar: &quot;ipsum&quot;};
+
+foo; // =&gt; lorem
+
+bar; // =&gt; ipsum
+</code></pre>
+<h2>&#x1F693; Interpolate</h2>
+<pre><code class="language-javascript">// Template literals #Expression interpolation - https://goo.gl/rnqz0a
+
+let obj = { x: 1, y: 2 };
+
+let result = console.log(`Your total is: ${obj.x + obj.y}`);
+
+result; // =&gt; Your total is: 3
+</code></pre>
+<h2>&#x1F645; Swapping:</h2>
+<pre><code class="language-javascript">// Destructuring assignment #Swapping variables - https://goo.gl/0ZQYtm
+
+let x = 4;
+let y = 2;
+
+let [y1, x1] = [x , y];
+
+y1; // =&gt; 4
+x1; // =&gt; 2
+</code></pre>
+<h2>&#x1F50D; Finding Max in Array?</h2>
+<pre><code class="language-javascript">// Spread syntax - https://goo.gl/0elyOR
+
+// Math.max() syntax - https://goo.gl/AVXfW3
+
+let arr = [1,4,32,10];
+
+Math.max(...arr); // =&gt; 32
+</code></pre>
+<h2>&#x1F52A; <s>List comprehension:</s></h2>
+<h3><code>[NOT COMPATIBLE with current browser, Only works on Firefox(Gecko)]</code></h3>
+<pre><code class="language-javascript">// Array comprehensions syntax - https://goo.gl/PJn9ol
+
+let numbers = [1, 2, 3, 4];
+
+var doubled = [for (let i of numbers) i *2];
+
+doubled; //=&gt; 2,4,6,8
+</code></pre>
+<h2>&#x270A; Map them!</h2>
+<pre><code class="language-javascript">// Array.prototype.map() syntax - https://goo.gl/EEn7n6
+
+let arr = [{id: 1, name:&apos;A&apos;}, {id: 2, name:&apos;B&apos;}, {id:3, name:&apos;C&apos;}];
+
+arr.map(x =&gt; x.id); // =&gt; [1,2,3]
+</code></pre>
+<h2>&#x1F62E; <a href="http://Object.is">Object.is</a> ?</h2>
+<pre><code class="language-javascript">// Object.is() syntax - https://goo.gl/2utt2F
+
+let z = (x, y) =&gt; x === y || Object.is(x,y);
+
+let obj1 = {
+  id : 1
+};
+
+let obj2 = {
+  id : 1
+};
+
+z(obj1, obj1); //=&gt; true
+z(obj1, obj2); //=&gt; false
+</code></pre>
+<h2>&#x1F47B; Is it Hidden?</h2>
+<pre><code class="language-javascript">// RegExp.prototype.test() syntax - https://goo.gl/aC3Snu
+
+let isHidden = (file) =&gt; /^\.|~$/.test(file);
+
+isHidden(&quot;.DS_STORE&quot;) //=&gt; true
+</code></pre>
+<h2>&#x1F914; Is it Included?</h2>
+<pre><code class="language-javascript">// Array.prototype.includes() syntax - https://goo.gl/hkxraC
+
+let arr = [1, 2, 3];
+
+arr.includes(2); // =&gt; true &#x1F64C;
+
+</code></pre>
+<h2>&#x1F44B; What them entries ?</h2>
+<pre><code class="language-javascript">// Object.entries() syntax - https://goo.gl/oSCIe1
+
+let obj = {foo: &apos;bar&apos;, baz: 42};
+
+let Entries = Object.entries(obj);
+
+Entries; // =&gt; [[&apos;foo&apos;, &apos;bar&apos;], [&apos;baz&apos;,42]]
+
+</code></pre>
+<h2>&#x1F44B; What them values ?</h2>
+<pre><code class="language-javascript">// Object.values() syntax - https://goo.gl/bR6thf
+
+let obj = {foo: &apos;bar&apos;, baz: 42};
+
+let Values = Object.values(obj);
+
+Values; // =&gt; [&apos;bar&apos;, 42]
+
+</code></pre>
+<h2>&#x1F64F; Promise</h2>
+<pre><code class="language-javascript">// Promise syntax - https://goo.gl/nBnJyq
+
+let wait1000 = new Promise((resolve, reject) =&gt; {
+  setTimeout(resolve,1000);
+}).then(() =&gt; {
+  console.log(&apos;Wohoo!! &#x1F64C;&apos;);
+});
+
+wait1000; // =&gt; after 1 sec Wohoo!! &#x1F64C;
+</code></pre>
+<h2>&#x1F50D; Find</h2>
+<pre><code class="language-javascript">// Array.prototype.find() syntax - https://goo.gl/xB2vwU
+
+let ages = [12, 19, 6, 4];
+
+let firstAdult = ages.find(age =&gt; age &gt;= 18);
+
+firstAdult; // =&gt; 19
+</code></pre>
+<h2>&#x1F50D; Find its <code>index</code></h2>
+<pre><code class="language-javascript">// Array.prototype.findIndex() syntax - https://goo.gl/NFp858
+
+let ages = [12, 19, 6, 4];
+
+let firstAdultIndex = ages.find(age =&gt; age &gt;= 18);
+
+firstAdultIndex; // =&gt; 1
+</code></pre>
+<figure><img src="https://raghibm.com/blog/awesome-ES6-features/http://33.media.tumblr.com/tumblr_lnd67mbWHl1ql201ao1_500.gif" alt="Hmmm....INTERESTING"><figcaption>Hmmm....INTERESTING</figcaption></figure>
+<h2>Reference</h2>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><strong>MDN</strong></a></p>
+]]></content>
+        <author>
+            <name>Raghib</name>
+            <email>raghib.hasan@codemate.com</email>
+            <uri>https://raghibm.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[📝 CheckList for a Software Engineering Interview]]></title>
+        <id>https://raghibm.com/blog/checklist-for-a-softwareEng-interview/</id>
+        <link href="https://raghibm.com/blog/checklist-for-a-softwareEng-interview/">
+        </link>
+        <updated>2016-11-24T22:00:00Z</updated>
+        <summary type="html"><![CDATA[CheckList for having an amazing Software Engineering Interview]]></summary>
+        <content type="html"><![CDATA[<h2>&#x1F4CB; Things to know &#x1F914;</h2>
+<hr>
+<h3>&#x1F511; Data Structures</h3>
+<br>
+<ul>
+<li>[ ] Linked Lists</li>
+</ul>
+<ul>
+<li>[ ] Trees, Tries &amp; Graphs</li>
+</ul>
+<ul>
+<li>[ ] Stacks &amp; Queues</li>
+</ul>
+<ul>
+<li>[ ] Heaps</li>
+</ul>
+<ul>
+<li>[ ] Vectors/ ArrayLists</li>
+</ul>
+<ul>
+<li>[ ] Hash Tables</li>
+</ul>
+<hr>
+<h3>&#x1F511; Algorithms</h3>
+<br>
+<ul>
+<li>[ ] Breadth-First Search</li>
+</ul>
+<ul>
+<li>[ ] Depth-First Search</li>
+</ul>
+<ul>
+<li>[ ] Binary Search</li>
+</ul>
+<ul>
+<li>[ ] Merge Sort</li>
+</ul>
+<ul>
+<li>[ ] Quick Sort</li>
+</ul>
+<hr>
+<h3>&#x1F511; Concepts</h3>
+<br>
+<ul>
+<li>[ ] Bit Manipulation</li>
+</ul>
+<ul>
+<li>[ ] Memory(Stack vs. Heap)</li>
+</ul>
+<ul>
+<li>[ ] Recursion</li>
+</ul>
+<ul>
+<li>[ ] Dynamic Programming</li>
+</ul>
+<ul>
+<li>[ ] Big O Time &amp; Space</li>
+</ul>
+<hr>
+<h3>&#x1F53A; Note:</h3>
+<p>Make sure you understand how to use and implement them and where applicable, the space and time complexity.</p>
+<hr>
+<h3>&#x1F3C3; Walking through a Problem &#x1F4A1;</h3>
+<pre><code class="language-markdown">                       &#x1F442; Listen / &#x1F440; Read
+                            Carefully
+                                &#x2193;
+
+                          &#x1F4C8;  Draw an
+                             Example
+
+                                &#x2193;
+
+                          &#x270A;  State a
+                           Brute Force
+
+                                &#x2193;
+
+                           &#x1F527; Optimize
+
+                                &#x2193;
+
+                            &#x1F3C3; Walk
+                             Through
+
+                                &#x2193;
+
+                           &#x1F528; Implement
+
+                                &#x2193;
+
+                            &#x1F680;  Test
+</code></pre>
+<hr>
+<h1>Before you do this</h1>
+<figure><img src="https://raghibm.com/blog/checklist-for-a-softwareEng-interview/http://i.imgur.com/OHTVdwg.gif" alt="WOOT &#x1F631;"><figcaption>WOOT &#x1F631;</figcaption></figure>
+<blockquote>
+<p>Just hear me out, I totally understand you won&#x2019;t be needing them in jobs. You could easily live with just basic knowledge and googling API&#x2019;S. This list basically trains you to think otherwise and reason with. Who knows you might use them when required &#x1F60E;.</p>
+</blockquote>
+<hr>
+<h3>After going through the checklist and having that awesome knowledge &#x1F4A1;, check out some sick libraries out there:</h3>
+<br>
+<h4>Persistent Data Structures w/structural sharing</h4>
+<br>
+<ul>
+<li><a href="https://facebook.github.io/immutable-js/">ImmutableJS</a></li>
+</ul>
+<ul>
+<li><a href="http://swannodette.github.io/mori/">mori</a></li>
+</ul>
+<ul>
+<li><a href="https://github.com/brainshave/ancient-oak">ancient-oak</a></li>
+</ul>
+<hr>
+<figure><img src="https://raghibm.com/blog/checklist-for-a-softwareEng-interview/http://31.media.tumblr.com/35973342a8f51315023d58c249664b00/tumblr_n9hu86QyRL1sedjuto1_400.gif" alt="Stay Awesome! &#x1F60E;"><figcaption>Stay Awesome! &#x1F60E;</figcaption></figure>
+<h2>&#x1F510; REFERENCE</h2>
+<p><a href="https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/ref=dp_ob_image_bk">Cracking the Coding Interview</a></p>
+]]></content>
+        <author>
+            <name>Raghib</name>
+            <email>raghib.hasan@codemate.com</email>
+            <uri>https://raghibm.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[📁 Creating Multiple Directories]]></title>
+        <id>https://raghibm.com/blog/creating-multiple-dirs/</id>
+        <link href="https://raghibm.com/blog/creating-multiple-dirs/">
+        </link>
+        <updated>2017-02-05T22:00:00Z</updated>
+        <summary type="html"><![CDATA[Quciker way to create multiple dirs...]]></summary>
+        <content type="html"><![CDATA[<h2>Creates 50 directories from Ex1-Ex50</h2>
+<pre><code class="language-bash">mkdir Ex{1..50}
+</code></pre>
+<hr>
+<h2>Each of the directories will hold 50 times exx1-50</h2>
+<pre><code class="language-bash">mkdir -p Ex{1..50}/exx{1..50}
+</code></pre>
+<hr>
+<h2>26 directories from a12345 &#x1F449; z12345</h2>
+<pre><code class="language-bash">mkdir {a-z}12345
+</code></pre>
+<hr>
+<h2>Comma separated(,) list makes dirs 1, 2 and 3.</h2>
+<pre><code class="language-bash">mkdir {1,2,3}
+</code></pre>
+<hr>
+<h2>Current date as a directory and 1,2,3 in it.</h2>
+<pre><code class="language-bash">mkdir -p `date &apos;+%y%m%d&apos;`/{1,2,3}
+</code></pre>
+<hr>
+<h2>Current user as a directory and 1,2,3 in it.</h2>
+<pre><code class="language-bash">mkdir -p $USER/{1,2,3}
+</code></pre>
+<hr>
+<figure><img src="https://raghibm.com/blog/creating-multiple-dirs/http://31.media.tumblr.com/35973342a8f51315023d58c249664b00/tumblr_n9hu86QyRL1sedjuto1_400.gif" alt="Stay Awesome! &#x1F60E;"><figcaption>Stay Awesome! &#x1F60E;</figcaption></figure>
+<hr>
+]]></content>
+        <author>
+            <name>Raghib</name>
+            <email>raghib.hasan@codemate.com</email>
+            <uri>https://raghibm.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🚀 Deploy Create React App with Surge]]></title>
+        <id>https://raghibm.com/blog/deploy-create-react-app-with-surge/</id>
+        <link href="https://raghibm.com/blog/deploy-create-react-app-with-surge/">
+        </link>
+        <updated>2017-01-17T22:00:00Z</updated>
+        <summary type="html"><![CDATA[Deploying a React app with Surge]]></summary>
+        <content type="html"><![CDATA[<p>Deploying an app to Surge is insanely easy, and it&#x2019;s even free (including a custom domain and SSL).</p>
+<p><strong>tldr;</strong></p>
+<h3>Step1 : <code>Install create-react-app</code></h3>
+<pre><code class="language-javascript">$ npm install -g create-react-app
+
+$ create-react-app my-app
+$ cd my-app/
+$ npm start
+</code></pre>
+<figure><img src="https://raghibm.com/blog/deploy-create-react-app-with-surge/https://camo.githubusercontent.com/506a5a0a33aebed2bf0d24d3999af7f582b31808/687474703a2f2f692e696d6775722e636f6d2f616d794e66434e2e706e67" alt="Screenshot"><figcaption>Screenshot</figcaption></figure>
+<h3>Step2 : <code>Install Surge</code></h3>
+<pre><code class="language-javascript">$ npm install -g surge
+
+</code></pre>
+<h3>Step3: <code>Run the create-react-app build</code></h3>
+<pre><code class="language-javascript">$ cd your-react-project
+$ npm run build
+
+</code></pre>
+<h3>Step4: <code>Move to the build directory</code></h3>
+<pre><code class="language-javascript">$ cd build
+</code></pre>
+<h3>Step5: <code>Run Surge</code> &#x1F44D;</h3>
+<pre><code class="language-javascript">$ surge
+</code></pre>
+<h3>Step6: <code>Go the URL,automatically generated by surge</code> &#x1F389;&#x1F389;</h3>
+]]></content>
+        <author>
+            <name>Raghib</name>
+            <email>raghib.hasan@codemate.com</email>
+            <uri>https://raghibm.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🚀 Getting started with express-react-views]]></title>
+        <id>https://raghibm.com/blog/getting-started-with-express-react-views/</id>
+        <link href="https://raghibm.com/blog/getting-started-with-express-react-views/">
+        </link>
+        <updated>2017-01-23T22:00:00Z</updated>
+        <summary type="html"><![CDATA[Get up and running with express & react]]></summary>
+        <content type="html"><![CDATA[<p>I am currently taking <a href="https://university.mongodb.com/courses/M101JS/about">M101JS</a> this year and having enough experience with <a href="https://facebook.github.io/react/">React</a>.
+I&#x2019;ve decided to use <a href="https://github.com/reactjs/express-react-views">express-react-views</a> for some of the challenges during the 8 week course.There are of course other server-side view solution <a href="http://www.embeddedjs.com/">ejs</a>, <a href="https://pugjs.org/api/getting-started.html">pug</a> or <a href="https://github.com/barc/express-hbs">handlebars</a>.</p>
+<h2>Step 1</h2>
+<p>Create a directory named <code>myapp</code></p>
+<pre><code class="language-javascipt">$ mkdir myapp
+</code></pre>
+<h2>Step 2</h2>
+<p>change to the directory and run <code>npm init</code></p>
+<pre><code class="language-javascipt">$ cd myapp
+$ npm init
+</code></pre>
+<h2>Step 3</h2>
+<p>Install the required <strong>dependencies</strong> <code>express</code>, <code>express-react-views</code>, <code>react</code> and <code>react-dom</code></p>
+<pre><code class="language-javascipt">$&#xA0;npm install --save express express-react-views react react-dom
+
+</code></pre>
+<h2>Step 4</h2>
+<p>In the <code>myapp</code> directory, create a file named <code>app.js</code> and add the following code:</p>
+<pre><code class="language-javascipt">const express = require(&apos;express&apos;);
+const { createEngine } = require(&apos;express-react-views&apos;);
+
+const app = express();
+const port = 3000;
+
+app.set(&apos;views&apos;, __dirname + &apos;/views&apos;);
+app.set(&apos;view engine&apos;, &apos;jsx&apos;);
+app.engine(&apos;jsx&apos;, createEngine());
+
+app.get(&apos;/&apos;, (req, res, next) =&gt; {
+  res.render(&apos;index.jsx&apos;, { name: &apos;world&apos; });
+});
+
+app.listen(
+  port,
+  () =&gt; console.log(`\uD83C\uDF0F running at http://localhost:${port}`)
+);
+
+</code></pre>
+<h2>Step 6</h2>
+<p>In the <code>myapp</code> directory, create a <code>views</code> directory with a views template named <code>index.jsx</code></p>
+<pre><code>$ mkdir views
+$ cd views
+$ touch index.jsx
+</code></pre>
+<p>and add the following code:</p>
+<pre><code>const React = require(&apos;react&apos;);
+
+class HelloWorld extends React.Component {
+  render() {
+    return &lt;div&gt; Hello {this.props.name} &lt;/div&gt;;
+  }
+}
+
+module.exports = HelloWorld;
+</code></pre>
+<h2>Step 7</h2>
+<p>Run the app from <code>myapp</code> directory with the following command:</p>
+<pre><code class="language-javascipt">$ node app.js
+</code></pre>
+<p>Then, load <a href="http://localhost:3000/">http://localhost:3000/</a> in a browser to see the output.</p>
+]]></content>
+        <author>
+            <name>Raghib</name>
+            <email>raghib.hasan@codemate.com</email>
+            <uri>https://raghibm.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🚀 Getting started with react-storybook]]></title>
+        <id>https://raghibm.com/blog/getting-started-with-react-storybook/</id>
+        <link href="https://raghibm.com/blog/getting-started-with-react-storybook/">
+        </link>
+        <updated>2017-02-15T22:00:00Z</updated>
+        <summary type="html"><![CDATA[Get up and running with React StoryBook]]></summary>
+        <content type="html"><![CDATA[<hr>
+<h1>React StoryBook &#x1F4D6;</h1>
+<blockquote>
+<p><a href="https://getstorybook.io/">React StoryBook</a> is a UI component development environment for React. With that, you are able develop UI components without running your app &#x1F64C;</p>
+</blockquote>
+<hr>
+<h2>&#x1F528; Step 1</h2>
+<pre><code class="language-bash">$ create-react-app hello-storybook
+</code></pre>
+<h2>&#x1F528; Step 2</h2>
+<pre><code class="language-bash">$ npm install -g getstorybook
+</code></pre>
+<h2>&#x1F528; Step 3</h2>
+<pre><code class="language-bash">$ cd hello-storybook
+$ getstorybook  # press enter
+</code></pre>
+<figure><img src="https://raghibm.com/blog/getting-started-with-react-storybook/getstorybook.png" alt="&#x1F3C3; getstorybook"><figcaption>&#x1F3C3; getstorybook</figcaption></figure>
+<h2>&#x1F528; Step 4</h2>
+<pre><code class="language-bash">$ npm run storybook
+</code></pre>
+<figure><img src="https://raghibm.com/blog/getting-started-with-react-storybook/run-storybook.png" alt="&#x1F3C3; storybook"><figcaption>&#x1F3C3; storybook</figcaption></figure>
+<hr>
+<h3>&#x1F680;  <a href="http://localhost:9009">http://localhost:9009</a> in a &#x1F30F; browser to &#x1F440; the output</h3>
+<figure><img src="https://raghibm.com/blog/getting-started-with-react-storybook/running-storybook.gif" alt="&#x1F3C3; storybook on port 9009"><figcaption>&#x1F3C3; storybook on port 9009</figcaption></figure>
+<hr>
+<h2>The main configuration for storybook is &#x1F526; in <code>config.js</code></h2>
+<figure><img src="https://raghibm.com/blog/getting-started-with-react-storybook/hello-storybook.png" alt="hello-storybook/storybook/config.js"><figcaption>hello-storybook/storybook/config.js</figcaption></figure>
+<h2>stories are &#x1F526; in <code>../src/stories</code></h2>
+<figure><img src="https://raghibm.com/blog/getting-started-with-react-storybook/stories.png" alt="../src/stories"><figcaption>../src/stories</figcaption></figure>
+<hr>
+<h2>Lets try changing the button label &#x1F604; &#x1F389;</h2>
+<figure><img src="https://raghibm.com/blog/getting-started-with-react-storybook/unicorn-label.gif" alt="Adding a &#x1F984; to the button label in ../src/stories/index.js"><figcaption>Adding a &#x1F984; to the button label in ../src/stories/index.js</figcaption></figure>
+<h2>Awesome &#x1F60E;, now lets try &#x1F527; changing the button component</h2>
+<figure><img src="https://raghibm.com/blog/getting-started-with-react-storybook/tinkering-button.gif" alt="Tinkering the Button component in ../src/stories/Button.js"><figcaption>Tinkering the Button component in ../src/stories/Button.js</figcaption></figure>
+<hr>
+<h2>Wait &#x270B;, it is possible deploy your <code>awesome storybook</code> into a <code>static site</code></h2>
+<br>
+<h2>Building &#x1F4D6; storybook</h2>
+<figure><img src="https://raghibm.com/blog/getting-started-with-react-storybook/build-storybook.png" alt="build-storybook in package.json"><figcaption>build-storybook in package.json</figcaption></figure>
+<pre><code>$ npm run build-storybook
+
+</code></pre>
+<hr>
+<h2>Building react app</h2>
+<figure><img src="https://raghibm.com/blog/getting-started-with-react-storybook/build-storybook.png" alt="build in package.json"><figcaption>build in package.json</figcaption></figure>
+<pre><code>$ npm run build
+</code></pre>
+<hr>
+<h2>The build folder is ready to be deployed &#x1F680;. You can serve it locally with a static server.</h2>
+<br>
+<pre><code>$ yarn global add pushstate-server
+
+$ pushstate-server build
+
+$ open http://localhost:9000
+</code></pre>
+<hr>
+<figure><img src="https://raghibm.com/blog/getting-started-with-react-storybook/http://31.media.tumblr.com/35973342a8f51315023d58c249664b00/tumblr_n9hu86QyRL1sedjuto1_400.gif" alt="Stay Awesome! &#x1F60E;"><figcaption>Stay Awesome! &#x1F60E;</figcaption></figure>
+<h2>REFERENCE</h2>
+<ul>
+<li><a href="https://getstorybook.io/">STORY BOOK</a></li>
+<li><a href="https://facebook.github.io/react/">react</a></li>
+<li><a href="https://github.com/facebookincubator/create-react-app">create-react-app</a></li>
+</ul>
+]]></content>
+        <author>
+            <name>Raghib</name>
+            <email>raghib.hasan@codemate.com</email>
+            <uri>https://raghibm.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[👋 Hello world]]></title>
+        <id>https://raghibm.com/blog/hello-world/</id>
+        <link href="https://raghibm.com/blog/hello-world/">
+        </link>
+        <updated>2016-11-02T22:00:00Z</updated>
+        <summary type="html"><![CDATA[My first blog]]></summary>
+        <content type="html"><![CDATA[<figure><img src="https://raghibm.com/blog/hello-world/https://media.giphy.com/media/xNT2CcLjhbI0U/giphy.gif" alt="Hello"><figcaption>Hello</figcaption></figure>
+<figure><img src="https://raghibm.com/blog/hello-world/https://media.giphy.com/media/mW05nwEyXLP0Y/giphy.gif" alt="Hello"><figcaption>Hello</figcaption></figure>
+<figure><img src="https://raghibm.com/blog/hello-world/https://media.giphy.com/media/oPyzztuHVnRvO/giphy.gif" alt="Hello"><figcaption>Hello</figcaption></figure>
+<figure><img src="https://raghibm.com/blog/hello-world/https://media.giphy.com/media/l0JMaNj0xZ6cDFLvq/source.gif" alt="Hello"><figcaption>Hello</figcaption></figure>
+<figure><img src="https://raghibm.com/blog/hello-world/https://media.giphy.com/media/3o7TKMt1VVNkHV2PaE/source.gif" alt="Hello"><figcaption>Hello</figcaption></figure>
+<figure><img src="https://raghibm.com/blog/hello-world/https://media.giphy.com/media/bcKmIWkUMCjVm/giphy.gif" alt="Hello"><figcaption>Hello</figcaption></figure>
+<figure><img src="https://raghibm.com/blog/hello-world/https://media.giphy.com/media/s7t6HGxxORyZq/giphy.gif" alt="Hello"><figcaption>Hello</figcaption></figure>
+<figure><img src="https://raghibm.com/blog/hello-world/https://media.giphy.com/media/ASd0Ukj0y3qMM/giphy.gif" alt="Hello"><figcaption>Hello</figcaption></figure>
+<figure><img src="https://raghibm.com/blog/hello-world/https://media.giphy.com/media/kZzY6eKKPdIjK/giphy.gif" alt="Hello"><figcaption>Hello</figcaption></figure>
+<figure><img src="https://raghibm.com/blog/hello-world/https://media.giphy.com/media/l2JHZ0dIcyFo5UQGQ/giphy.gif" alt="Hello"><figcaption>Hello</figcaption></figure>
+<figure><img src="https://raghibm.com/blog/hello-world/https://media.giphy.com/media/xT5LMPbrjXZr89MdDa/giphy.gif" alt="Hello"><figcaption>Hello</figcaption></figure>
+<figure><img src="https://raghibm.com/blog/hello-world/https://media.giphy.com/media/i7iQ6DluDnLeE/giphy.gif" alt="Hello"><figcaption>Hello</figcaption></figure>
+<figure><img src="https://raghibm.com/blog/hello-world/https://media.giphy.com/media/l3vR22DFtLJjbdDYQ/giphy.gif" alt="Hello"><figcaption>Hello</figcaption></figure>
+<figure><img src="https://raghibm.com/blog/hello-world/https://media.giphy.com/media/MCKQEmHkUyGf6/giphy.gif" alt="Hello"><figcaption>Hello</figcaption></figure>
+<figure><img src="https://raghibm.com/blog/hello-world/https://media.giphy.com/media/vCKC987OpQAco/giphy.gif" alt="Hello"><figcaption>Hello</figcaption></figure>
+]]></content>
+        <author>
+            <name>Raghib</name>
+            <email>raghib.hasan@codemate.com</email>
+            <uri>https://raghibm.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[💁‍ Node Version Management]]></title>
+        <id>https://raghibm.com/blog/node-version-management/</id>
+        <link href="https://raghibm.com/blog/node-version-management/">
+        </link>
+        <updated>2018-12-15T22:00:00Z</updated>
+        <summary type="html"><![CDATA[How to interactively manage your node.js version]]></summary>
+        <content type="html"><![CDATA[<h1>Node.js Version Management &#x1F4D6;</h1>
+<blockquote>
+<p><a href="https://github.com/tj/n">n</a> is a Node.js version management: no subshells, no profile setup, no convoluted API, just simple. &#x1F64C;</p>
+</blockquote>
+<hr>
+<figure><img src="https://raghibm.com/blog/node-version-management/n-in-action.gif" alt="N in action"><figcaption>N in action</figcaption></figure>
+<p>&#x26A0;&#xFE0F; Currently supported only on Mac OSX</p>
+<h2>&#x1F528; Installation</h2>
+<pre><code class="language-bash">$ npm install -g n
+</code></pre>
+<h2>&#x1F527; Installing/Activating Versions</h2>
+<pre><code class="language-bash">$ n 0.8.14
+$ n 0.8.17
+$ n 0.9.6
+</code></pre>
+<h2>&#x1F527; Removing Versions</h2>
+<pre><code class="language-bash">// Remove some versions:
+
+$ n rm 0.9.4 v0.10.0
+
+// Removing all versions except the current version:
+
+$ n prune
+</code></pre>
+<h2>&#x1F527; Use/Installing latest / LTS relase</h2>
+<pre><code class="language-bash">// Latest
+
+$ n latest
+
+// Official
+
+$ n lts
+</code></pre>
+<br>
+<figure><img src="https://raghibm.com/blog/node-version-management/cat.gif" alt="Stay Awesome! &#x1F60E;"><figcaption>Stay Awesome! &#x1F60E;</figcaption></figure>
+<h2>REFERENCE</h2>
+<ul>
+<li><a href="https://stackoverflow.com/questions/7718313/how-to-change-to-an-older-version-of-node-js/50817276">How to change to an older version of Node.js</a></li>
+<li><a href="https://github.com/tj/n#installingactivating-versions">Interactively Manage Your Node.js Versions</a></li>
+</ul>
+]]></content>
+        <author>
+            <name>Raghib</name>
+            <email>raghib.hasan@codemate.com</email>
+            <uri>https://raghibm.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🤔 Reasoning async]]></title>
+        <id>https://raghibm.com/blog/reason-async/</id>
+        <link href="https://raghibm.com/blog/reason-async/">
+        </link>
+        <updated>2017-02-03T22:00:00Z</updated>
+        <summary type="html"><![CDATA[A good way to reason/remember Async]]></summary>
+        <content type="html"><![CDATA[<h1>Hmm&#x2026; async stuffs &#x1F914;</h1>
+<h2>Single-threaded</h2>
+<blockquote>
+<p>E.g Bank with a one teller</p>
+</blockquote>
+<figure><img src="https://raghibm.com/blog/reason-async/https://alsanda.files.wordpress.com/2012/08/bank-teller1.jpg" alt="Bank with a one teller"><figcaption>Bank with a one teller</figcaption></figure>
+<h2>Event Loop</h2>
+<blockquote>
+<p>E.g Line to use the bathroom</p>
+</blockquote>
+<figure><img src="https://raghibm.com/blog/reason-async/https://barchronicles.files.wordpress.com/2010/10/bathroomline1.jpg" alt="BATHROOM LINE"><figcaption>BATHROOM LINE</figcaption></figure>
+<h2>Non-blocking</h2>
+<blockquote>
+<p>E.g Forgot papers, next person serviced</p>
+</blockquote>
+<figure><img src="https://raghibm.com/blog/reason-async/http://media.gettyimages.com/photos/customer-is-served-by-bank-staff-at-a-branch-of-nordea-bank-ab-in-picture-id94937810" alt="Non-blocking Service"><figcaption>Non-blocking Service</figcaption></figure>
+<h2>Avoid blocking</h2>
+<blockquote>
+<p>Don&#x2019;t hog the bathroom</p>
+</blockquote>
+<figure><img src="https://raghibm.com/blog/reason-async/http://images.fineartamerica.com/images-medium-large/please-dont-hog-the-bathroom-sylvia-pimental-.jpg" alt="DON&apos;T HOG THE BATHROOM"><figcaption>DON&apos;T HOG THE BATHROOM</figcaption></figure>
+<h2>Run to completion</h2>
+<blockquote>
+<p>Satisfy customer before next</p>
+</blockquote>
+<figure><img src="https://raghibm.com/blog/reason-async/http://www.clipartkid.com/images/103/satisfied-customer-clipart-DwLJMJ-clipart.png" alt="SATISFIED &#x1F604;"><figcaption>SATISFIED &#x1F604;</figcaption></figure>
+<h2>Cooperative Concurrency</h2>
+<blockquote>
+<p>Customers play nice</p>
+</blockquote>
+<figure><img src="https://raghibm.com/blog/reason-async/https://www.hyken.com/wp-content/uploads/Discount-Coffee-250x300.jpg" alt="CUSTOMER PLAY NICE &#x1F609;"><figcaption>CUSTOMER PLAY NICE &#x1F609;</figcaption></figure>
+<h2>Little Programs</h2>
+<blockquote>
+<p>Customers in line</p>
+</blockquote>
+<figure><img src="https://raghibm.com/blog/reason-async/http://blog.clarity.fm/wp-content/uploads/2013/07/customer-line-603x452.jpg" alt="CUSTOMERS IN LINE &#x1F62F;"><figcaption>CUSTOMERS IN LINE &#x1F62F;</figcaption></figure>
+<h2>Think explicitly about Asynchronous Seams</h2>
+<figure><img src="https://raghibm.com/blog/reason-async/https://dqam6mam97sh3.cloudfront.net/blog/ausl/wp-content/uploads/sites/2/2015/02/homer.png" alt="Think &#x1F914;"><figcaption>Think &#x1F914;</figcaption></figure>
+<h2>Timer delay not guaranteed</h2>
+<blockquote>
+<p>Calendar, Todo list</p>
+</blockquote>
+<figure><img src="https://raghibm.com/blog/reason-async/http://bashooka.com/wp-content/uploads/2012/10/calendar_designs-1.jpg" alt="CALENDAR &#x1F4C6;"><figcaption>CALENDAR &#x1F4C6;</figcaption></figure>
+<figure><img src="https://raghibm.com/blog/reason-async/https://cdn.theunlockr.com/wp-content/uploads/2012/06/To-Do-List-feature.jpg" alt="TODO LIST &#x1F50F;"><figcaption>TODO LIST &#x1F50F;</figcaption></figure>
+<h2>Not always async</h2>
+<blockquote>
+<p>Quack, waddle but not a duck</p>
+</blockquote>
+<figure><img src="https://raghibm.com/blog/reason-async/https://s-media-cache-ak0.pinimg.com/236x/eb/f2/b9/ebf2b9588854dd12c39911aa3031e351.jpg" alt="Quack &#x1F425;"><figcaption>Quack &#x1F425;</figcaption></figure>
+<h2>Race conditions in order of queue</h2>
+<figure><img src="https://raghibm.com/blog/reason-async/http://learnyousomeerlang.com/static/img/fsm_both_ready.png" alt="Race conditon &#x1F3C3;"><figcaption>Race conditon &#x1F3C3;</figcaption></figure>
+<figure><img src="https://raghibm.com/blog/reason-async/https://cdn-images-1.medium.com/max/800/1*7IURnff2RaD8iM8yePIw7g.gif" alt="WOOOW &#x1F984;"><figcaption>WOOOW &#x1F984;</figcaption></figure>
+]]></content>
+        <author>
+            <name>Raghib</name>
+            <email>raghib.hasan@codemate.com</email>
+            <uri>https://raghibm.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[✨ Removing duplicates from "Open With" Mac OSX]]></title>
+        <id>https://raghibm.com/blog/remove-duplicates-from-open-with/</id>
+        <link href="https://raghibm.com/blog/remove-duplicates-from-open-with/">
+        </link>
+        <updated>2017-01-28T22:00:00Z</updated>
+        <summary type="html"><![CDATA[Remove Duplicates from the “Open With” Right-Click Menu in Mac OS X]]></summary>
+        <content type="html"><![CDATA[<p><strong>tldr;</strong></p>
+<pre><code class="language-bash">/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/\
+LaunchServices.framework/Versions/A/Support/\
+lsregister -kill -r -domain local -domain user
+</code></pre>
+<h2>Creating an alias</h2>
+<pre><code class="language-bash"> $ nano .bash_profile
+</code></pre>
+<pre><code class="language-bash">alias fixow=&apos;/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/Support/lsregister -kill -r -domain local -domain user;killall Finder;echo &quot;Open With has been rebuilt, Finder will relaunch&quot;&apos;
+</code></pre>
+<pre><code class="language-bash"> $ fix row
+</code></pre>
+]]></content>
+        <author>
+            <name>Raghib</name>
+            <email>raghib.hasan@codemate.com</email>
+            <uri>https://raghibm.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🌀 Software Engineering phases of life cycle]]></title>
+        <id>https://raghibm.com/blog/software-eng-phases-of-life-cycle/</id>
+        <link href="https://raghibm.com/blog/software-eng-phases-of-life-cycle/">
+        </link>
+        <updated>2016-12-01T22:00:00Z</updated>
+        <summary type="html"><![CDATA[Software Engineering phases 👊]]></summary>
+        <content type="html"><![CDATA[<br>
+<h1>&#x1F528;&#x1F527;&#x1F4E6; Software Engineering</h1>
+<blockquote>
+<p><code>Software engineering</code> is the study and practice of methods helpful for the construction and maintenance of large software systems.</p>
+</blockquote>
+<hr>
+<center><h1>&#x1F4A0; Phases of life cycle</h1><center>
+<hr>
+  <center> <h1>1</h1> </center>
+<blockquote>
+<p><code>Analyze</code> the problem precisely and completely. Be sure to <code>specify</code> all necessary user interface with care.</p>
+</blockquote>
+<hr>
+  <center> <h1>2</h1> </center>
+<blockquote>
+<p><code>Build</code> a prototype and <code>experiment</code> with it until all specifications can be finalized.</p>
+</blockquote>
+<hr>
+ <center> <h1>3</h1> </center>
+<blockquote>
+<p><code>Design</code> the algorithm, using the tools of data structures and of other algorithms whose function is already known.</p>
+</blockquote>
+<hr>
+ <center> <h1>4</h1> </center>
+<blockquote>
+<p><code>Verify</code> that the algorithmm is correct, or make it so simple that its correctness is self-evident.</p>
+</blockquote>
+<hr>
+ <center> <h1>5</h1> </center>
+<blockquote>
+<p><code>Analyze</code> the algorithm to determine its requirements and make sure that it meets the specifications.</p>
+</blockquote>
+<hr>
+ <center> <h1>6</h1> </center>
+<blockquote>
+<p><code>Code</code> the algorithm into the appropriate programming language.</p>
+</blockquote>
+<hr>
+ <center> <h1>7</h1> </center>
+<blockquote>
+<p><code>Test</code> and <code>evaluate</code> the program on carefully chosen test data.</p>
+</blockquote>
+<hr>
+ <center> <h1>8</h1> </center>
+<blockquote>
+<p><code>Refine</code> and <code>repeat</code> the foregoing steps are neeeded for additional subprograms until the software is complete and fully functional.</p>
+</blockquote>
+<hr>
+<center> <h1>9</h1> </center>
+<blockquote>
+<p><code>Optimize</code> the code to improve performance, but only if necessary.</p>
+</blockquote>
+<hr>
+<center> <h1>10</h1> </center>
+<blockquote>
+<p><code>Maintain</code> the program so that it will meet the changing needs of its users.</p>
+</blockquote>
+<hr>
+<figure><img src="https://raghibm.com/blog/software-eng-phases-of-life-cycle/http://31.media.tumblr.com/35973342a8f51315023d58c249664b00/tumblr_n9hu86QyRL1sedjuto1_400.gif" alt="Stay Awesome! &#x1F60E;"><figcaption>Stay Awesome! &#x1F60E;</figcaption></figure>
+<hr>
+</center></center>]]></content>
+        <author>
+            <name>Raghib</name>
+            <email>raghib.hasan@codemate.com</email>
+            <uri>https://raghibm.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[✋ Stop Using `sudo` with `npm`!!!]]></title>
+        <id>https://raghibm.com/blog/stop-using-sudo-with-npm/</id>
+        <link href="https://raghibm.com/blog/stop-using-sudo-with-npm/">
+        </link>
+        <updated>2017-02-10T22:00:00Z</updated>
+        <summary type="html"><![CDATA[Using `sudo` with `npm` messes up your permission]]></summary>
+        <content type="html"><![CDATA[<hr>
+<h3>Why ? &#x1F615;</h3>
+<blockquote>
+<p>Well using sudo messes up your <code>permissions</code> and makes it so that <code>non-sudo</code> installations won&#x2019;t work (i.e. in your <code>~/.npm</code>).</p>
+</blockquote>
+<hr>
+<h2>&#x1F527; Here is a quick fix &#x1F447;</h2>
+<hr>
+<pre><code class="language-bash">$&#xA0;sudo chown -R $(whoami) ~/node*                #  ~/node_modules
+
+$&#xA0;sudo chown -R $(whoami) ~/.node*               #  .node-gyp
+
+$&#xA0;sudo chown -R $(whoami) ~/.npm*                # .npm .npmrc
+
+$&#xA0;sudo chown -R $(whoami) /usr/local/*/*node*    # node node_modules
+
+$&#xA0;sudo chown -R $(whoami) /usr/local/*/*npm*     # npm
+</code></pre>
+<hr>
+<figure><img src="https://raghibm.com/blog/stop-using-sudo-with-npm/http://31.media.tumblr.com/35973342a8f51315023d58c249664b00/tumblr_n9hu86QyRL1sedjuto1_400.gif" alt="Stay Awesome! &#x1F60E;"><figcaption>Stay Awesome! &#x1F60E;</figcaption></figure>
+<hr>
+]]></content>
+        <author>
+            <name>Raghib</name>
+            <email>raghib.hasan@codemate.com</email>
+            <uri>https://raghibm.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[😮 THE BIG O NOTATION]]></title>
+        <id>https://raghibm.com/blog/the-BIG-O-NOTATION/</id>
+        <link href="https://raghibm.com/blog/the-BIG-O-NOTATION/">
+        </link>
+        <updated>2017-02-12T22:00:00Z</updated>
+        <summary type="html"><![CDATA[Lets go through BIG-O NOTATION and remember it 😄]]></summary>
+        <content type="html"><![CDATA[<hr>
+<h2>What is <code>BIG-O NOTATION</code> ? &#x1F914;</h2>
+<blockquote>
+<p>Big-O Notation is a way of roughly meausing the performance of algorithms in order to compare one against another when discussing them.</p>
+</blockquote>
+<center>
+<iframe width="550" height="300" src="https://www.youtube.com/embed/v4cd1O4zkGw" frameborder="0" allowfullscreen></iframe>
+</center>
+<hr>
+<figure><img src="https://raghibm.com/blog/the-BIG-O-NOTATION/big-o.png" alt="BIO-O NOTATION &#x1F4C8;"><figcaption>BIO-O NOTATION &#x1F4C8;</figcaption></figure>
+<blockquote>
+<p>Big-O Notation is a mathematical notation that we borrowed in computer science to classify by how they respond to the number (N) of items that you give them.</p>
+</blockquote>
+<hr>
+<h3>There are &#x270C;&#xFE0F; primary things that you &#x1F4CF; measure with <code>BIG-O</code> :</h3>
+<hr>
+<ol>
+<li>
+<p>&#x1F550; <code>Time complexity</code>- refers to the total count of operations an algorithm will perform given a set of items.</p>
+</li>
+<li>
+<p>&#x1F30C; <code>Space complexity</code>- refers to the total memory an algorithm will take up while running given a set of items.</p>
+</li>
+</ol>
+<hr>
+<blockquote>
+<p>We measure these independently from one another because while an algorithm may perform less operations than another, it may also take up way more memory. Depending on what your requirements are, one may be a better choise than the other.</p>
+</blockquote>
+<hr>
+<h3>Some Common <code>BIG-O&apos;s</code>:</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Name</th>
+<th style="text-align:center">Notation</th>
+<th style="text-align:center">Feeling at &#x1F389;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Constant</td>
+<td style="text-align:center">O(1)</td>
+<td style="text-align:center">AWESOME!</td>
+</tr>
+<tr>
+<td style="text-align:center">Logarithmic</td>
+<td style="text-align:center">O(log N)</td>
+<td style="text-align:center">GREAT!</td>
+</tr>
+<tr>
+<td style="text-align:center">Linear</td>
+<td style="text-align:center">O(N)</td>
+<td style="text-align:center">OKAY.</td>
+</tr>
+<tr>
+<td style="text-align:center">Linearithmic</td>
+<td style="text-align:center">O(N log N)</td>
+<td style="text-align:center">UGH&#x2026;</td>
+</tr>
+<tr>
+<td style="text-align:center">Polynomial</td>
+<td style="text-align:center">O(N^2)</td>
+<td style="text-align:center">SHITTY</td>
+</tr>
+<tr>
+<td style="text-align:center">Exponential</td>
+<td style="text-align:center">O(2^N)</td>
+<td style="text-align:center">HORRIBLE</td>
+</tr>
+<tr>
+<td style="text-align:center">Factorial</td>
+<td style="text-align:center">O(N!)</td>
+<td style="text-align:center">WTF</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3>Let&#x2019;s &#x1F440; at what these would equal given (N) number of items.</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Notation</th>
+<th style="text-align:center">N = 5</th>
+<th style="text-align:center">10</th>
+<th style="text-align:center">20</th>
+<th style="text-align:center">30</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">O(1)</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">1</td>
+</tr>
+<tr>
+<td style="text-align:center">O(log N)</td>
+<td style="text-align:center">2.3219&#x2026;</td>
+<td style="text-align:center">3.3219&#x2026;</td>
+<td style="text-align:center">4.3219&#x2026;</td>
+<td style="text-align:center">4.9068&#x2026;</td>
+</tr>
+<tr>
+<td style="text-align:center">O(N)</td>
+<td style="text-align:center">5</td>
+<td style="text-align:center">10</td>
+<td style="text-align:center">20</td>
+<td style="text-align:center">30</td>
+</tr>
+<tr>
+<td style="text-align:center">O(N log N)</td>
+<td style="text-align:center">11.609&#x2026;</td>
+<td style="text-align:center">33.219&#x2026;</td>
+<td style="text-align:center">84.638&#x2026;</td>
+<td style="text-align:center">147.204&#x2026;</td>
+</tr>
+<tr>
+<td style="text-align:center">O(N ^ 2)</td>
+<td style="text-align:center">25</td>
+<td style="text-align:center">100</td>
+<td style="text-align:center">400</td>
+<td style="text-align:center">900</td>
+</tr>
+<tr>
+<td style="text-align:center">O(2 ^ N)</td>
+<td style="text-align:center">32</td>
+<td style="text-align:center">1024</td>
+<td style="text-align:center">1,048,576</td>
+<td style="text-align:center">1,073,741,824</td>
+</tr>
+<tr>
+<td style="text-align:center">O(N!)</td>
+<td style="text-align:center">120</td>
+<td style="text-align:center">3,628,800</td>
+<td style="text-align:center">2,432,902,0&#x2026;</td>
+<td style="text-align:center">265,252,859,812,&#x2026;</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3>From relatively small sets of data you can do a <strong>lot</strong> of extra work.</h3>
+<hr>
+<h3>With data structures, you can perform 4 primary types of actions:</h3>
+<br>
+<ol>
+<li>
+<p>Accessing</p>
+</li>
+<li>
+<p>Searching</p>
+</li>
+<li>
+<p>Inserting</p>
+</li>
+<li>
+<p>Deleting</p>
+</li>
+</ol>
+<hr>
+<h3>It&#x2019;s important to <strong>note</strong> that <code>data structures</code> may be &#x1F44D; <code>good</code> at one action but &#x1F44E; <code>bad</code> at another.</h3>
+<br>
+<table>
+<thead>
+<tr>
+<th>Data structures</th>
+<th>Accessing</th>
+<th>Searching</th>
+<th>Inserting</th>
+<th>Deleting</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Array</td>
+<td>O(1)</td>
+<td>O(N)</td>
+<td>O(N)</td>
+<td>O(N)</td>
+</tr>
+<tr>
+<td>Linked List</td>
+<td>O(N)</td>
+<td>O(N)</td>
+<td>O(1)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>Binary Search Tree</td>
+<td>O(log N)</td>
+<td>O(log N)</td>
+<td>O(log N)</td>
+<td>O(log N)</td>
+</tr>
+</tbody>
+</table>
+<br>
+<h3>Or rather&#x2026;</h3>
+<br>
+<table>
+<thead>
+<tr>
+<th>Data structures</th>
+<th>Accessing</th>
+<th>Searching</th>
+<th>Inserting</th>
+<th>Deleting</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Array</td>
+<td>AWESOME!!</td>
+<td>OKAY</td>
+<td>OKAY</td>
+<td>OKAY</td>
+</tr>
+<tr>
+<td>Linked List</td>
+<td>OKAY</td>
+<td>OKAY</td>
+<td>AWESOME!!</td>
+<td>AWESOME!!</td>
+</tr>
+<tr>
+<td>Binary Search Tree</td>
+<td>GREAT!</td>
+<td>GREAT!</td>
+<td>GREAT!</td>
+<td>GREAT!</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3>Even further, some actions will have a different <code>average</code> performace and a <code>worst case scenario</code> performance.</h3>
+<br>
+<blockquote>
+<p>There is no perfect data structure, and you choose one over another based on the data you are working with and the things you are going to do with it. This is why it is important to know a number of different common data structures so that you can choose from them - <a href="https://twitter.com/thejameskyle">James Kyle</a></p>
+</blockquote>
+<hr>
+<h2>REFERENCE</h2>
+<p><a href="https://github.com/thejameskyle/itsy-bitsy-data-structures">ITSY BITSY DATA STRUCTURES</a></p>
+]]></content>
+        <author>
+            <name>Raghib</name>
+            <email>raghib.hasan@codemate.com</email>
+            <uri>https://raghibm.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🔧 Use kill-tabs]]></title>
+        <id>https://raghibm.com/blog/use-kill-tabs/</id>
+        <link href="https://raghibm.com/blog/use-kill-tabs/">
+        </link>
+        <updated>2017-02-10T22:00:00Z</updated>
+        <summary type="html"><![CDATA[Using `kill-tabs` prevents Chrome from taking up all system resources]]></summary>
+        <content type="html"><![CDATA[<h2>tldr;</h2>
+<pre><code class="language-javascript">$ npm install --global kill-tabs
+</code></pre>
+<pre><code>$ kill-tabs --help
+
+  Usage
+    $ kill-tabs
+
+  Options
+    --no-chromium  Don&apos;t kill tabs in Chromium
+    --no-chrome    Don&apos;t kill tabs in Chrome
+</code></pre>
+<h3>Use <a href="https://chrome.google.com/webstore/detail/reload-all-tabs/lgpdljdpanfecnpindkbnikegohoobci/related">Reload All tabs</a> to resume all the killed tabs</h3>
+<hr>
+<h2>Why ? &#x1F615;</h2>
+<p><img src="https://raghibm.com/blog/use-kill-tabs/tab-abuser.png" alt="tab-abuser">
+Being a <code>tab-abuser</code>, I would advice anyone to install up this package and use it to prevent Chrome from taking up all system resources.</p>
+<p>It works on <code>macOS</code>, <code>Linux</code> and <code>Windows</code>. &#x1F389;</p>
+<figure><img src="https://raghibm.com/blog/use-kill-tabs/http://31.media.tumblr.com/35973342a8f51315023d58c249664b00/tumblr_n9hu86QyRL1sedjuto1_400.gif" alt="Stay Awesome! &#x1F60E;"><figcaption>Stay Awesome! &#x1F60E;</figcaption></figure>
+<h2>Reference</h2>
+<p><a href="https://github.com/sindresorhus/kill-tabs">kill-tabs</a></p>
+]]></content>
+        <author>
+            <name>Raghib</name>
+            <email>raghib.hasan@codemate.com</email>
+            <uri>https://raghibm.com/about</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🔍 Visualization of the 📞 stack]]></title>
+        <id>https://raghibm.com/blog/visualize-call-stack/</id>
+        <link href="https://raghibm.com/blog/visualize-call-stack/">
+        </link>
+        <updated>2017-02-07T22:00:00Z</updated>
+        <summary type="html"><![CDATA[Visualize the call-stack of printSquare with 10 steps 👌]]></summary>
+        <content type="html"><![CDATA[<h2>&quot; <code>one thread</code> === <code>one call stack</code> === <code>one thing at a time</code> &quot;</h2>
+<hr>
+<pre><code class="language-javascript">// Example
+ function multiply(a, b) {
+   return a * b;
+ }
+
+ function square(n) {
+    return multiply(n, n);
+}
+
+function printSquare(n) {
+   var squared = square(n);
+   console.log(squared);
+}
+
+printSquare(4);
+</code></pre>
+<h2>NOTES:</h2>
+<ul>
+<li>
+<p><code>call stack</code> is a <code>data structure</code> which <code>records</code> basically where in the program we are.</p>
+</li>
+<li>
+<p>If we <code>step into</code> a <code>function</code>, we put something on to the <code>stack</code>, if we <code>return</code> from a <code>function</code>, we <code>pop</code> <code>off</code> from the <code>top</code> of <code>stack</code></p>
+</li>
+</ul>
+<hr>
+<h2>Let&#x2019;s &#x1F3C3; this file  and  &#x1F50D; the <code>steps</code></h2>
+<hr>
+<h2>&#x1F528; STEP 1</h2>
+<hr>
+<pre><code class="language-javascript">  _________________
+ |      STACK      |
+ |                 |
+ |                 |
+ |                 |
+ |                 |
+ |                 |
+ |                 |
+ |                 |
+ |                 |
+ |      main()     | // &lt;----- There is kind of main function,
+ |_________________| //        like the file itself, we push
+                     //        that on to the stack.
+
+</code></pre>
+<hr>
+<h2>&#x1F528; STEP 2</h2>
+<hr>
+<pre><code class="language-javascript">  _________________
+ |      STACK      |
+ |                 |
+ |                 |
+ |                 |
+ |                 |
+ |                 |
+ |                 |
+ |                 |
+ |  printSquare(4) |
+ |      main()     | // &lt;-----  It goes through the file &quot;main()&quot;,
+ |_________________| //         the &quot;function defination&quot; and once
+                     //         we get to &quot;printSquare&quot;. Since
+                     //         &quot;printSquare&quot; is a &quot;function call&quot;,
+                     //         so we push it onto the stack.
+</code></pre>
+<hr>
+<h2>&#x1F528; STEP 3</h2>
+<hr>
+<pre><code class="language-javascript">  _________________
+ |      STACK      |
+ |                 |
+ |                 |
+ |                 |
+ |                 |
+ |                 |
+ |                 |
+ |    square(n)    |
+ |  printSquare(4) | // &lt;-----  Inside &quot;printSquare&quot;, we immediately
+ |     main()      | //         call &quot;square&quot; and push it on
+ |_________________| //         to the stack.
+
+</code></pre>
+<hr>
+<h2>&#x1F528; STEP 4</h2>
+<hr>
+<pre><code class="language-javascript">  _________________
+ |      STACK      |
+ |                 |
+ |                 |
+ |                 |
+ |                 |
+ |                 |
+ |  multiply(n, n) |
+ |    square(n)    | // &lt;-----  Inside &quot;square&quot;, we  immediately
+ |  printSquare(4) | //         call &quot;multiply&quot; and push it on to
+ |     main()      | //         the stack.
+ |_________________|
+
+</code></pre>
+<hr>
+<h2>&#x1F528; STEP 5</h2>
+<hr>
+<pre><code class="language-javascript">
+// INITIAL
+  _________________
+ |      STACK      |
+ |                 |
+ |                 |
+ |                 |
+ |                 |
+ |                 |
+ |  multiply(n, n) | // &lt;-----  &quot;multiply&quot; returns &quot;a&quot; and &quot;b&quot;, so
+ |    square(n)    | //          we &quot;pop&quot; off from stack.
+ |  printSquare(4) |
+ |     main()      |
+ |_________________|
+
+
+// RESULT (poof - it&apos;s gone &#x1F4A5;)
+ _________________
+|      STACK      |
+|                 |
+|                 |
+|                 |
+|                 |
+|                 |
+|     *poof*      |
+|    square(n)    |
+|  printSquare(4) |
+|     main()      |
+|_________________|
+
+</code></pre>
+<hr>
+<h2>&#x1F528; STEP 6</h2>
+<hr>
+<pre><code class="language-javascript">
+// INITIAL
+  _________________
+ |      STACK      |
+ |                 |
+ |                 |
+ |                 |
+ |                 |
+ |                 |
+ |                 |
+ |    square(n)    | // &lt;-----  &quot;square&quot; returned &quot;mutiply(n, n)&quot;,
+ |  printSquare(4) | //          so we &quot;pop&quot; it off the stack.
+ |     main()      |
+ |_________________|
+
+
+// RESULT (poof - it&apos;s gone &#x1F4A5;)
+ _________________
+|      STACK      |
+|                 |
+|                 |
+|                 |
+|                 |
+|                 |
+|                 |
+|     *poof*      |
+|  printSquare(4) |
+|     main()      |
+|_________________|
+
+</code></pre>
+<hr>
+<h2>&#x1F528; STEP 7</h2>
+<hr>
+<pre><code class="language-javascript">
+// INITIAL
+  _________________
+ |      STACK      |
+ |                 |
+ |                 |
+ |                 |
+ |                 |
+ |                 |
+ |                 |
+ |                 |
+ |  printSquare(4) | // &lt;----- Inside &quot;printSquare&quot;, it calls
+ |     main()      | //        &quot;console.log(squared)&quot;, since it&apos;s a
+ |_________________| //        function call we push it to the stack.
+
+
+// RESULT
+ _____________________
+|        STACK        |
+|                     |
+|                     |
+|                     |
+|                     |
+|                     |
+|                     |
+| console.log(squared)|
+|    printSquare(4)   |
+|        main()       |
+|_____________________|
+
+</code></pre>
+<hr>
+<h2>&#x1F528; STEP 8</h2>
+<hr>
+<pre><code class="language-javascript">
+// INITIAL
+ _____________________
+|        STACK        |
+|                     |
+|                     |
+|                     |
+|                     |
+|                     |
+|                     |
+| console.log(squared)| // &lt;-----  &quot;console.log(squared)&quot; returns the
+|    printSquare(4)   | //         &quot;logged square&quot;, so we &quot;pop&quot; it
+|        main()       | //         off the stack.
+|_____________________|
+
+
+// RESULT (poof - it&apos;s gone &#x1F4A5;)
+  _________________
+ |      STACK      |
+ |                 |
+ |                 |
+ |                 |
+ |                 |
+ |                 |
+ |                 |
+ |     *poof*      |
+ |  printSquare(4) | //   &lt;-----   Inside &quot;printSquare&quot;, it calls
+ |     main()      | //            &quot;console.log(squared)&quot; since it&apos;s
+ |_________________| //            a function call we push
+                     //            it to the stack.
+
+</code></pre>
+<hr>
+<h2>&#x1F528; STEP 9</h2>
+<hr>
+<pre><code class="language-javascript">
+// INITIAL
+  _________________
+ |      STACK      |
+ |                 |
+ |                 |
+ |                 |
+ |                 |
+ |                 |
+ |                 |
+ |                 |
+ |  printSquare(4) | //   &lt;-----  &quot;printSquare(n)&quot; has no &quot;return&quot;,
+ |     main()      | //            as it&apos;s &quot;implicit&quot; we &quot;pop&quot; it
+ |_________________| //            off the stack.
+
+
+// RESULT (poof - it&apos;s gone &#x1F4A5;)
+ _________________
+|      STACK      |
+|                 |
+|                 |
+|                 |
+|                 |
+|                 |
+|                 |
+|                 |
+|     *poof*      |
+|     main()      |
+|_________________|
+
+</code></pre>
+<hr>
+<h2>&#x1F528; STEP 10</h2>
+<hr>
+<pre><code class="language-javascript">
+// INITIAL
+  _________________
+ |      STACK      |
+ |                 |
+ |                 |
+ |                 |
+ |                 |
+ |                 |
+ |                 |
+ |                 |
+ |                 |
+ |     main()      | //   &lt;-----   Since there no &quot;function call&quot;
+ |_________________| //            left we &quot;pop&quot; off &quot;main()&quot;
+                     //            from the stack.
+
+
+// RESULT (poof - it&apos;s gone &#x1F4A5;)
+ _________________
+|      STACK      |
+|                 |
+|                 |
+|                 |
+|                 |
+|                 |
+|                 |
+|                 |
+|                 |
+|      *poof*     |
+|_________________|
+
+</code></pre>
+<hr>
+<figure><img src="https://raghibm.com/blog/visualize-call-stack/https://s-media-cache-ak0.pinimg.com/originals/46/02/88/46028823ea0de856a1f7683fa24c4e7f.gif" alt="WOOOW"><figcaption>WOOOW</figcaption></figure>
+<h1>More coming up soon. . . &#x1F44A;</h1>
+<hr>
+<hr>
+<h2>REFERENCE</h2>
+<p><a href="https://youtu.be/8aGhZQkoFbQ">What the heck is the event loop anyway?</a></p>
+]]></content>
+        <author>
+            <name>Raghib</name>
+            <email>raghib.hasan@codemate.com</email>
+            <uri>https://raghibm.com/about</uri>
+        </author>
+    </entry>
+</feed>
