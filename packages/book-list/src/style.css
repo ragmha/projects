@@ -1,0 +1,17 @@
+.container {
+  margin-top: 100px;
+  background-color: grey;
+  border: 1px solid black;
+}
+.bookDetail {
+  text-align: center;
+  float: right;
+  margin-right: 300px;
+}
+
+.bookList {
+  margin-top: 100px;
+  margin-right: 20px;
+  margin-bottom: 100px;
+  float: auto;
+}
