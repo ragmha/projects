@@ -1,0 +1,272 @@
+[
+  {
+    "id": "dd66d216-9ab7-4b3c-8600-95cd8cb050a0",
+    "day": "day-1",
+    "exercise": "BACK & CALVES"
+  },
+  {
+    "id": "d8d8fb9f-c98e-4021-96f1-5ffd7d060f87",
+    "day": "day-2",
+    "exercise": "CHEST & ABS"
+  },
+  {
+    "id": "37c42369-f3b5-48b6-95f3-8fc76989d905",
+    "day": "day-3",
+    "exercise": "LEGS"
+  },
+  {
+    "id": "3c232941-cad7-47c7-b808-f42a8c31e1fb",
+    "day": "day-4",
+    "exercise": "ARMS & CALVES"
+  },
+  {
+    "id": "689ac8c1-103a-4f7f-9fc8-4e6e426e1c57",
+    "day": "day-5",
+    "exercise": "SHOULDERS & ABS"
+  },
+  {
+    "id": "d4d1b9fb-1490-4627-8ade-13d6116a5c8e",
+    "day": "day-6",
+    "exercise": "REST"
+  },
+  {
+    "id": "4e5c241d-9a08-400f-8a09-4e508e07b344",
+    "day": "day-7",
+    "exercise": "REST"
+  },
+  {
+    "id": "a4c0bf9d-73b9-4cd2-95d4-0f4b1d4426a3",
+    "day": "day-8",
+    "exercise": "BACK & CALVES"
+  },
+  {
+    "id": "158da12f-5dd4-4fc3-9c03-d9231b338e20",
+    "day": "day-9",
+    "exercise": "CHEST & ABS"
+  },
+  {
+    "id": "fb63cef7-4208-49e7-9f92-884e6e9fb591",
+    "day": "day-10",
+    "exercise": "LEGS"
+  },
+  {
+    "id": "44b971f0-645a-4752-be87-7750e8dd3c36",
+    "day": "day-11",
+    "exercise": "ARMS & CALVES"
+  },
+  {
+    "id": "d02827f0-6975-49ed-9b74-8954592986a6",
+    "day": "day-12",
+    "exercise": "SHOULDERS & ABS"
+  },
+  {
+    "id": "6b48ba30-d168-4425-95aa-8681591d379d",
+    "day": "day-13",
+    "exercise": "REST"
+  },
+  {
+    "id": "caf5194b-06cd-4bc2-9dac-13af6a59cce0",
+    "day": "day-14",
+    "exercise": "REST"
+  },
+  {
+    "id": "65ac246a-7b29-4192-af72-b47adc70d24e",
+    "day": "day-15",
+    "exercise": "BACK & CALVES"
+  },
+  {
+    "id": "c70e8795-8b14-4018-ab85-7e83a3628dc1",
+    "day": "day-16",
+    "exercise": "CHEST & ABS"
+  },
+  {
+    "id": "97de577b-661d-4f70-83f0-479b391b7e47",
+    "day": "day-17",
+    "exercise": "LEGS"
+  },
+  {
+    "id": "30045ff7-b3c1-4570-81b4-3790e016b3d2",
+    "day": "day-18",
+    "exercise": "ARMS & CALVES"
+  },
+  {
+    "id": "b7c63f35-8b2a-4e0a-b48f-e30fd8a8fcbd",
+    "day": "day-19",
+    "exercise": "SHOULDERS & ABS"
+  },
+  {
+    "id": "cae44218-ee6b-4d62-811f-7b3d8754a593",
+    "day": "day-20",
+    "exercise": "REST"
+  },
+  {
+    "id": "dbcb7e1f-ff02-499c-9452-0978f217f0c6",
+    "day": "day-21",
+    "exercise": "REST"
+  },
+  {
+    "id": "28171d4a-a098-4fcd-935d-1b67519fe9ee",
+    "day": "day-22",
+    "exercise": "BACK & CALVES"
+  },
+  {
+    "id": "776a129a-3698-4845-a868-69272ad61156",
+    "day": "day-23",
+    "exercise": "CHEST & ABS"
+  },
+  {
+    "id": "fc294136-3115-4e1a-b7e1-4faec5a55fc4",
+    "day": "day-24",
+    "exercise": "LEGS,ARMS & CALVES"
+  },
+  {
+    "id": "76dea22e-8985-4ff8-b6cc-bdab3c9458d7",
+    "day": "day-25",
+    "exercise": ""
+  },
+  {
+    "id": "2b197d8e-948d-4d80-b0c8-a42ec528bbd0",
+    "day": "day-26",
+    "exercise": "SHOULDERS & ABS"
+  },
+  {
+    "id": "edab26a9-16e6-4aff-8d3c-61560b40e736",
+    "day": "day-27",
+    "exercise": "REST"
+  },
+  {
+    "id": "16fd6e6c-f61b-482b-a284-36f5a9958cfb",
+    "day": "day-28",
+    "exercise": "REST"
+  },
+  {
+    "id": "0354dd6a-af13-4b7e-a551-df514ff34771",
+    "day": "day-29",
+    "exercise": "BACK & CALVES"
+  },
+  {
+    "id": "c6a722c7-49e7-4cc2-913e-e828135d064e",
+    "day": "day-30",
+    "exercise": "CHEST & ABS"
+  },
+  {
+    "id": "a48ff4a2-4bc9-4e50-946a-868b14c02859",
+    "day": "day-31",
+    "exercise": "LEGS"
+  },
+  {
+    "id": "b6d45f02-6b82-4d43-8efa-0a907c2976b5",
+    "day": "day-32",
+    "exercise": "ARMS & CALVES"
+  },
+  {
+    "id": "d5efad44-5bce-4ae2-b6b5-9f0d23e368cf",
+    "day": "day-33",
+    "exercise": "SHOULDERS & ABS"
+  },
+  {
+    "id": "5301800b-8e3c-4c26-a582-373336048ae4",
+    "day": "day-34",
+    "exercise": "REST"
+  },
+  {
+    "id": "d83284eb-ce28-4acb-aa48-181f15b6f5ce",
+    "day": "day-35",
+    "exercise": "REST"
+  },
+  {
+    "id": "822adb62-3af8-4bad-915b-8cd3e2cd565d",
+    "day": "day-36",
+    "exercise": "BACK & CALVES"
+  },
+  {
+    "id": "f50b346d-d790-48f4-be09-d3dbbfa0a5c2",
+    "day": "day-37",
+    "exercise": "CHEST & ABS"
+  },
+  {
+    "id": "5294cfd7-cc50-4cc5-b899-4247afaabae0",
+    "day": "day-38",
+    "exercise": "LEGS"
+  },
+  {
+    "id": "48a0a1d6-0527-4fbd-8f86-72de53eed969",
+    "day": "day-39",
+    "exercise": "ARMS & CALVES"
+  },
+  {
+    "id": "3a7fcc03-141e-4886-805f-b786e3409353",
+    "day": "day-40",
+    "exercise": "SHOULDERS & ABS"
+  },
+  {
+    "id": "55798e06-14fc-4677-b77e-4339840568bb",
+    "day": "day-41",
+    "exercise": "REST"
+  },
+  {
+    "id": "4de1e439-14a9-432b-b0bf-0d5e289cf2d3",
+    "day": "day-42",
+    "exercise": "REST"
+  },
+  {
+    "id": "e72e8a27-171a-4b16-b369-4cac81b7fde0",
+    "day": "day-43",
+    "exercise": "BACK & CALVES"
+  },
+  {
+    "id": "e8e17607-21f6-492f-b3b9-b2e0c1eecbfd",
+    "day": "day-44",
+    "exercise": "CHEST & ABS"
+  },
+  {
+    "id": "6e59d75c-c34e-4f65-bfba-e485093aa13c",
+    "day": "day-45",
+    "exercise": "LEGS"
+  },
+  {
+    "id": "466b23d3-6adf-4a81-b9a0-25671ec05794",
+    "day": "day-46",
+    "exercise": "ARMS & CALVES"
+  },
+  {
+    "id": "28c14b8e-da4a-4042-b049-c69d8c2bbe48",
+    "day": "day-47",
+    "exercise": "SHOULDERS & ABS"
+  },
+  {
+    "id": "7b536a10-7c12-4552-8ac1-5b8a759341f7",
+    "day": "day-48",
+    "exercise": ""
+  },
+  {
+    "id": "362b8204-a64d-472f-ba48-8557437060e4",
+    "day": "day-49",
+    "exercise": ""
+  },
+  {
+    "id": "6bfdc8f3-0430-4d28-8713-e83811f0ae95",
+    "day": "day-50",
+    "exercise": "BACK & CALVES"
+  },
+  {
+    "id": "feac08f2-dc3d-40f8-b513-c72e31e86d5e",
+    "day": "day-51",
+    "exercise": "CHEST & ABS"
+  },
+  {
+    "id": "47c8eed9-300a-4ba0-81b5-ec80bd0cc28c",
+    "day": "day-52",
+    "exercise": "LEGS"
+  },
+  {
+    "id": "40ee70c4-836a-4bb4-b361-e0c7a1be4c9d",
+    "day": "day-53",
+    "exercise": "ARMS & CALVES"
+  },
+  {
+    "id": "2b955c14-ec17-47df-9929-907b3f4f8a21",
+    "day": "day-54",
+    "exercise": "SHOULDERS & ABS"
+  }
+]
